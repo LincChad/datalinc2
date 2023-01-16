@@ -1,16 +1,13 @@
-import logo from './datalinc.png';
-import './App.css';
+import './App.css'
+import Header from './components/Header'
+import Hero from './components/Hero'
 import Footer from './components/Footer';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Welcome to <code>Datalinc</code>. <br></br>Website coming soon.
-        </p>
-      </header>
+      <Header />
+      <Hero />
       <Footer />
     </div>
   );
