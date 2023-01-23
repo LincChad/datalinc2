@@ -3,7 +3,7 @@
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 60vmin;
   pointer-events: none;
 }
 
@@ -60,6 +60,20 @@
 
 .Button {
 position: sticky;
+}
 
 
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: auto;
+}
+
+.column-2 {
+  display: flex;
+  flex-direction: column;
+  float: left;
+  padding: 5%;
+  
 }
