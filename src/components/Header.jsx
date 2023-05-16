@@ -1,11 +1,12 @@
-import { AppBar, Toolbar, Button } from "@mui/material";
+import { AppBar, Toolbar } from "@mui/material";
 import React from "react";
 import "../App.css"
+import FormDialog from "./Form.jsx";
 
 function Header() {
 
     const displayDesktop = () => {
-        return <Toolbar className="App-header"><code>Datalinc</code><Button variant="contained">Sign Up</Button></Toolbar>
+        return <Toolbar className="App-header"><code>Datalinc</code><FormDialog /></Toolbar>
     }
   
     return (
