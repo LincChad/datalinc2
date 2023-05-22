@@ -85,9 +85,9 @@ const Globe = ({ rotationSpeed = 1, enableBloom }) => {
           id: name,
           geometry: node.geometry,
           color:
-            name[1] == "L"
+            name[1] === "L"
               ? colors.current.light
-              : name[1] == "M"
+              : name[1] === "M"
               ? colors.current.medium
               : colors.current.dark,
         });
